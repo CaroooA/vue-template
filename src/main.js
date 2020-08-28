@@ -5,6 +5,8 @@ import store from './store'
 // 引入element
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+// vuex-router-sync
+import './plugins/vuexRouterSync'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
